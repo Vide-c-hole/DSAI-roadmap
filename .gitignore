@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (too large for git)
+*.bin
+*.safetensors
+*.gguf
+models/
+
+# Data
+data/
+*.csv
+*.parquet
+
+# Secrets
+.env
+*.key
+
+# Build
+dist/
+build/
+*.egg-info/
