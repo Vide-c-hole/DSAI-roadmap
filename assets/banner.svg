@@ -1,0 +1,63 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b6b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="200" fill="url(#bg)" rx="10"/>
+
+  <!-- Decorative elements -->
+  <circle cx="50" cy="100" r="80" fill="#e94560" opacity="0.1"/>
+  <circle cx="750" cy="100" r="100" fill="#4ecdc4" opacity="0.1"/>
+
+  <!-- Data visualization decorations -->
+  <g opacity="0.3">
+    <!-- Bar chart -->
+    <rect x="620" y="120" width="15" height="40" fill="#4ecdc4"/>
+    <rect x="640" y="100" width="15" height="60" fill="#4ecdc4"/>
+    <rect x="660" y="80" width="15" height="80" fill="#4ecdc4"/>
+    <rect x="680" y="60" width="15" height="100" fill="#e94560"/>
+    <rect x="700" y="90" width="15" height="70" fill="#4ecdc4"/>
+    <rect x="720" y="110" width="15" height="50" fill="#4ecdc4"/>
+
+    <!-- Dots/nodes -->
+    <circle cx="80" cy="60" r="5" fill="#4ecdc4"/>
+    <circle cx="110" cy="80" r="5" fill="#4ecdc4"/>
+    <circle cx="95" cy="120" r="5" fill="#e94560"/>
+    <line x1="80" y1="60" x2="110" y2="80" stroke="#4ecdc4" stroke-width="1"/>
+    <line x1="110" y1="80" x2="95" y2="120" stroke="#4ecdc4" stroke-width="1"/>
+  </g>
+
+  <!-- Main title -->
+  <text x="400" y="85" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle">
+    Data Science Career Lab
+  </text>
+
+  <!-- Subtitle -->
+  <text x="400" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#a0a0a0" text-anchor="middle">
+    Mechanical Engineer → Data Scientist
+  </text>
+
+  <!-- Tags -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-size="12">
+    <rect x="240" y="145" width="70" height="24" rx="12" fill="url(#accent)"/>
+    <text x="275" y="161" fill="white" text-anchor="middle">Practice</text>
+
+    <rect x="320" y="145" width="75" height="24" rx="12" fill="#4ecdc4"/>
+    <text x="357" y="161" fill="#1a1a2e" text-anchor="middle">Portfolio</text>
+
+    <rect x="405" y="145" width="85" height="24" rx="12" fill="url(#accent)"/>
+    <text x="447" y="161" fill="white" text-anchor="middle">Interview</text>
+
+    <rect x="500" y="145" width="65" height="24" rx="12" fill="#4ecdc4"/>
+    <text x="532" y="161" fill="#1a1a2e" text-anchor="middle">Career</text>
+  </g>
+</svg>

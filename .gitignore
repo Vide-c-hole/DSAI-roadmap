@@ -28,10 +28,11 @@ Thumbs.db
 *.gguf
 models/
 
-# Data
-data/
+# Data (large files)
 *.csv
 *.parquet
+# Keep practice databases
+!practice/sql/*.db
 
 # Secrets
 .env
